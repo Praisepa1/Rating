@@ -1,0 +1,79 @@
+ @import url('https://fonts.googleapis.com/css2?family=Overpass:wght@400;700&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    object-fit: fill;
+}
+main{
+    background-color: hsl(215, 86%, 3%);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Overpass', sans-serif;
+    
+    /* position: relative; */
+}
+.container{
+    width: 20rem;
+    background-color:hsl(213, 19%, 18%);
+    border-radius: 2rem;
+    padding: 2rem;
+}
+.image {
+    display: flex;
+background-color: hsl(0, 0%, 100%);
+border-radius: 5rem;
+align-items: center;
+justify-content: center;
+width: 30px;
+height: 30px;
+margin-bottom: 1rem;
+}
+.image:hover{
+    background-color: hsl(213, 19%, 18%);
+}
+p{
+    margin: 1rem 0;
+}
+.section__notes{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 1rem;
+    cursor: pointer;
+}
+
+.section__notes > span{
+    background-color: hsl(217, 12%, 63%);
+    width: 40px;
+    height: 40px;
+    border-radius: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: all ease-in-out 1s;
+}
+.section__notes >span:hover{
+    background-color: hsl(25, 97%, 53%);
+    color: white;
+}
+button{
+    background-color: hsl(25, 97%, 53%);
+    width: 320px;
+    height: 30px;
+    border: 0;
+    border-radius: 2rem;
+    color: white;
+}
+button:hover{
+    background-color: white;
+    border: 1px solid (25, 97%, 53%);
+    position: relative;
+    left: 10px;
+    color: black;
+}
+.hidden {
+    display: none;
+}
